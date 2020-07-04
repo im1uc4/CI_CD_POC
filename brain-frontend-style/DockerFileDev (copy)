@@ -10,8 +10,11 @@ ENV PATH /app/node_modules/.bin:$PATH
 # install and cache app dependencies
 COPY brain-frontend-style/package.json /app/package.json
 
-RUN npm install
+RUN npm cache clean --force
+RUN npm cache verify
 RUN npm update
+RUN npm install
+RUN npm i ngx-daterangepicker-material@2.1.9
 
 # add app
 COPY brain-frontend-style/. /app

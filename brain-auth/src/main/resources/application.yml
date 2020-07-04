@@ -11,6 +11,6 @@ spring:
                              format_sql: false
                              dialect: org.hibernate.dialect.MySQL5InnoDBDialect
       datasource:
-               url: jdbc:mysql://127.0.0.1:3306/optimisation?useSSL=false&createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+               url: jdbc:mysql://sql_container:3306/optimisation?useSSL=false&createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
                username: root
                password: root
