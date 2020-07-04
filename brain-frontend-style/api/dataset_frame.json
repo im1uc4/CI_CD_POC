@@ -1,0 +1,53 @@
+{
+    "dataset_skeleton":[{
+        "id":1,
+        "model_id":2,
+        "dataset_id":1, 
+        "table_id":1,
+        "column_id":1,
+        "table_name": "Resources", 
+        "table_display_name": "Resources",
+        "table_is_editable":true,  
+        "column_name":"resourceid",
+        "column_display_name":"Staff ID",   
+        "column_type":"number", 
+        "column_format":"#",   
+        "column_is_editable":true, 
+        "column_is_dynamic":false,
+        "status":true  
+    },
+    {
+        "id":2,
+        "model_id":2,
+        "dataset_id":1, 
+        "table_id":1,
+        "column_id":2,
+        "table_name": "Resources", 
+        "table_display_name": "Resources",
+        "table_is_editable":true,  
+        "column_name":"resourcename",
+        "column_display_name":"Staff Name",   
+        "column_type":"number", 
+        "column_format":"",   
+        "column_is_editable":true, 
+        "column_is_dynamic":true,
+        "status":true  
+    },
+    {
+        "id":3,
+        "model_id":2,
+        "dataset_id":1, 
+        "table_id":1,
+        "column_id":3,
+        "table_name": "Resources", 
+        "table_display_name": "Resources",
+        "table_is_editable":true,  
+        "column_name":"resourceEmail",
+        "column_display_name":"Email",   
+        "column_type":"string", 
+        "column_format":"",   
+        "column_is_editable":true, 
+        "column_is_dynamic":true,
+        "status":true  
+    }]
+} 

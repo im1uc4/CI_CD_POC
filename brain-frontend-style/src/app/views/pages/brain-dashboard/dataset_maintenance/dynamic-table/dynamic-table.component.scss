@@ -1,0 +1,40 @@
+td.mat-cell{
+    border-bottom-style: none;
+}
+
+th.mat-header-cell{
+    border-bottom-style: none;
+}
+
+mat-hint {
+  color: red !important;
+}
+.example-trigger {
+    display: inline-block;
+  }
+
+div.horizontal-line
+{
+width: 100%; 
+background-color: #646c9a;
+height: 1px;
+float: left;  
+}
+
+span.black {
+    background: #646c9a;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em; 
+  }
+  
+  .toolbar-button {
+    padding: 0;
+}

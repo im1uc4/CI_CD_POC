@@ -1,0 +1,74 @@
+{
+    "ds":[{
+        "id":1,
+        "model_id":2,
+        "dataset_id":1, 
+        "dataset_name": "Master Dataset Biopolis Day Shift X Aug 19", 
+        "dataset_description":"Dummy description 1",
+        "dataset_scheduledatetime": "2019-08-05 12:00:00",            
+        "created_by":"System",
+        "updated_by":"System",
+        "createdAt" : "2019-08-27 12:00:00",
+        "updatedAt" : "2019-08-27 12:00:00"     
+    },
+    {
+        "id":2,
+        "model_id":2, 
+        "dataset_id":2, 
+        "dataset_name": "Master Dataset Biopolis Night Shift X Aug 19", 
+        "dataset_description":"Dummy description 2",
+        "dataset_scheduledatetime": "2019-08-05 12:00:00",             
+        "created_by":"System",
+        "updated_by":"System",
+        "createdAt" : "2019-08-27 12:00:00",
+        "updatedAt" : "2019-08-27 12:00:00"     
+    },
+    {
+        "id":3,
+        "model_id":2, 
+        "dataset_id":22,
+        "dataset_name": "Master Dataset Biopolis Day Shift X Sep 19", 
+        "dataset_description":"Dummy description 3", 
+        "dataset_scheduledatetime": "2019-08-05 12:00:00",            
+        "created_by":"System",
+        "updated_by":"System",
+        "createdAt" : "2019-08-27 12:00:00",
+        "updatedAt" : "2019-08-27 12:00:00"    
+    },
+    {
+        "id":4,
+        "model_id":2, 
+        "dataset_id":3,      
+        "dataset_name": "Master Dataset Biopolis Night Shift X Sep 19", 
+        "dataset_description":"Master Dataset Dummy description 4",  
+        "dataset_scheduledatetime": "2019-08-05 12:00:00",  
+        "created_by":"System",
+        "updated_by":"System",
+        "createdAt" : "2019-08-27 12:00:00",
+        "updatedAt" : "2019-08-27 12:00:00"    
+    },
+    {
+        "id":5,
+        "model_id":1,
+        "dataset_id":4, 
+        "dataset_name": "Master Dataset Model 2 Day Shift X Aug 19", 
+        "dataset_description":"Dummy description 2",  
+        "dataset_scheduledatetime": "2019-08-05 12:00:00",       
+        "created_by":"System",
+        "updated_by":"System",
+        "createdAt" : "2019-08-27 12:00:00",
+        "updatedAt" : "2019-08-27 12:00:00"     
+    },
+    {
+        "id":6,
+        "model_id":1,
+        "dataset_id":4,        
+        "dataset_name": "Master Dataset Model 2 Night Shift X Aug 19", 
+        "dataset_description":"Dummy description 3",   
+        "dataset_scheduledatetime": "2019-08-05 12:00:00",
+        "created_by":"System",
+        "updated_by":"System",
+        "createdAt" : "2019-08-27 12:00:00",
+        "updatedAt" : "2019-08-27 12:00:00"    
+    }]
+} 

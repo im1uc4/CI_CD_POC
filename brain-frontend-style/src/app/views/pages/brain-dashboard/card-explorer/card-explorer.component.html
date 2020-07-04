@@ -1,0 +1,38 @@
+<div class="row">
+        <div class="col-md-4" *ngFor="let element of dashElements | sortcardpipe">
+                <div class="kt-portlet kt-portlet--mobile" (click)="open(element)">
+                    <div class="kt-portlet__head" style="border:none">
+                        <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title" style="font-size:1.5rem; font-weight: 600; color: #646c9a">{{element.name}}</h3>
+                        </div>
+                    </div>
+                    <div class="kt-portlet__body">
+                        <div class="kt-section">
+                            <h3 class="kt-section__title" style="margin-bottom: 8px; font-size: 1.1rem; color: #595d6e">{{element.desc_header}}</h3>
+                            <div> {{element.desc_details}}
+                                </div>
+                        </div>
+                        <div class="kt-section" style="margin-bottom: 0px">
+                                <div class="row">
+                                        <div class="col-sm-6">
+                                            <p style="margin: 0px; font-size: 0.8rem">
+                                                In-Charge
+                                            </p>
+                                        </div>
+                                </div>
+                            <h3 class="kt-section__title" style="margin-bottom: 8px; font-size: 1.1rem; color: #595d6e">{{element.person_in_charge}}</h3>
+                         </div>   
+                    </div>                      
+                    <div class="kt-portlet__body">
+                        <div class="kt-section" style="margin-bottom: 0px">
+                                <div class="row">
+                                        <div class="col-sm-6">
+                                                <button mat-button class="btn btn-bold btn-label-brand btn-sm" (click)="$event.stopPropagation(); openDialog(element.id,element.name)"><p style="margin: 0px; font-size: 0.8rem">View Roster Rules </p></button>      
+                                        </div>
+                                </div>
+                        </div>                     
+                    </div>       
+                </div>
+        </div>        
+</div>   
+  
