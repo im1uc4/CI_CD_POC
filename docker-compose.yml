@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  sql_container:
+    environment:
+    - MYSQL_ROOT_PASSWORD=root
+    #- MYSQL_DATABASE=test
+    container_name: sql_container
+    build:
+      context: .
+      dockerfile: Mysql/DockerFileDev
+    ports:
+      - '3006:3006'
+
+  server_container:
+    container_name: server_container
+    build:
+      context: .
+      dockerfile: brain-server/DockerFileDev
+    ports:
+      - '8761:8761'
+
+  zuul_container:
+    container_name: zuul_container
+    build:
+      context: .
+      dockerfile: brain-zuul/DockerFileDev
+    ports:
+      - '3000:3000'
+
+  core_container:
+    container_name: core_container
+    build:
+      context: .
+      dockerfile: brain-core-api/DockerFileDev
+    ports:
+      - '8009:8009'
+
+  auth_container:
+    container_name: auth_container
+    build:
+      context: .
+      dockerfile: brain-auth/DockerFileDev
+    ports:
+      - '9100:9100'
+
+
+
+
+
+
