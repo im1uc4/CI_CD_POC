@@ -6,6 +6,7 @@ services:
     - MYSQL_ROOT_PASSWORD=root
     #- MYSQL_DATABASE=test
     container_name: sql
+    restart: always
     build:
       context: .
       dockerfile: Mysql/DockerFileDev
@@ -14,6 +15,7 @@ services:
 
   server:
     container_name: server
+    restart: always
     build:
       context: .
       dockerfile: brain-server/DockerFileDev
@@ -22,6 +24,8 @@ services:
 
   zuul:
     container_name: zuul
+    depends_on: 
+      - server
     build:
       context: .
       dockerfile: brain-zuul/DockerFileDev
@@ -30,6 +34,9 @@ services:
 
   core:
     container_name: core
+    depends_on: 
+      - server
+      - sql
     build:
       context: .
       dockerfile: brain-core-api/DockerFileDev
@@ -38,6 +45,9 @@ services:
 
   auth:
     container_name: auth
+    depends_on: 
+      - server
+      - sql
     build:
       context: .
       dockerfile: brain-auth/DockerFileDev
@@ -46,6 +56,8 @@ services:
 
  # front:
  #   container_name: front
+ #   depends_on: 
+ #     - server
  #   build:
  #     context: .
  #     dockerfile: brain-frontend-style/DockerFileProd

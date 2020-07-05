@@ -2,7 +2,15 @@ docker-compose build
 
 docker-compose up -d
 
+## Combined command
+docker-compose up --build -d
 
+##logs of container
+docker logs containerid
+
+
+##Enter in container 
+docker exec -it containerid  sh
 
 ## Login default admin
 
