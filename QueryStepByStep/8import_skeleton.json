@@ -1,0 +1,37 @@
+{
+	"skeleton":{
+	"optimisationModelId":"ID- Biopolis 1",
+	"skeletonFields":[
+    	 {
+          "table": "resources" ,
+          "column_name":  "Rank",
+          "display_name": "Rank",
+          "column_type":  "text",
+          "control_type": "textbox",           
+          "column_format":"",
+          "is_mandatory": false,
+          "is_visible":   true
+        },
+         {
+          "table": "services" ,
+          "column_name":  "Minimum Concurrent",
+          "display_name": "Minimum Concurrent",
+          "column_type":  "numeric",
+          "control_type": "textbox",           
+          "column_format":"",
+          "is_mandatory": false,
+          "is_visible":   true
+        },
+         {
+          "table": "services" ,
+          "column_name":  "Rotate Officers",
+          "display_name": "Rotate Officers",
+          "column_type":  "text",
+          "control_type": "textbox",           
+          "column_format":"",
+          "is_mandatory": false,
+          "is_visible":   true
+        }
+    ]
+ }
+}

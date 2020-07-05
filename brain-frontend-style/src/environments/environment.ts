@@ -8,7 +8,7 @@ export const environment = {
 	authTokenKey: 'authce9d77b308c149d5992a80073637e4d5',
 	is_ssl:false,
 	get apiURL(){
-		 return ((this.is_ssl)?'https':'http')+'://localhost:3000'
+		 return ((this.is_ssl)?'https':'http')+'://zuul:3000'
 	},
 	get engineAPI(){
 		return ((this.is_ssl)?'https':'http')+'://localhost:8080'

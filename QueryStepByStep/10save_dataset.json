@@ -1,0 +1,43 @@
+{
+   "model_id": 1,
+   "Master":true,
+   "dataset": {
+      "items": [
+         {
+            "id": 1,
+            "record_id": 100,
+            "table_name": "timewindows",
+            "table_display_name": "Roster Shift",
+            "dataset_id": 1,
+            "field_name": "IsTimeWindowExists",
+            "value": "24/1/2019 S1",
+            "status": 1,
+            "created_by": "System",
+            "updated_by": "System",
+            "createdAt": "2019-10-30T18:31:25.000Z",
+            "updatedAt": "2019-10-30T18:31:25.000Z",
+            "_createdByApp":"Sushil"
+         },
+         {
+            "id": 89,
+            "record_id": 120,
+            "table_name": "tasks",
+            "table_display_name": "Tasks",
+            "dataset_id": 1,
+            "field_name": "IsTimeWindowExists",
+            "value": "Guard Post Duty 1",
+            "status": 1,
+            "created_by": "System",
+            "updated_by": "System",
+            "createdAt": "2019-10-30T18:31:25.000Z",
+            "updatedAt": "2019-10-30T18:31:25.000Z",
+                "_createdByApp":"Sushil"
+         }
+      ],
+      "totalCount": 0,
+      "recordId": "5",
+      "datasetId":1,
+      "datasetName": "Import 1, 11192019",
+      "scheduleDate": "2019-10-31T02:45:43.892Z"
+	}
+}

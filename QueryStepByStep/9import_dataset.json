@@ -1,0 +1,1079 @@
+{
+"dataset": {
+    "optimisationModelId":"ID- Biopolis 1",
+    "datasetId": "Import 1, 11192019",
+    "name": "Imported DS",
+    "description": "Example description",
+    "scheduleDateTime": "2019-09-30T23:59:59",
+    "isMasterDataset": true,
+    "resourceList": [
+      {
+        "resourceId": "BE0109",
+        "resourceName": "Luke",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "CSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "KE0049",
+        "resourceName": "Ching",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "CSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "HE1597",
+        "resourceName": "Mow",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "TE0617",
+        "resourceName": "Kumar",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "HE1234",
+        "resourceName": "Quek",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "HE1609",
+        "resourceName": "Sharif",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "TE0589",
+        "resourceName": "Komala",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "GE0024",
+        "resourceName": "Robert",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "HE1545",
+        "resourceName": "Farah",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "CE1803",
+        "resourceName": "Tan",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "HE1577",
+        "resourceName": "Soh",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      },
+      {
+        "resourceId": "HE1637",
+        "resourceName": "Ho",
+        "customFieldList": [
+          {
+            "name": "Rank",
+            "customFieldType": "TEXT",
+            "textValue": "SO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ]
+      }
+    ],
+    "serviceList": [
+      {
+        "serviceId": "SCC",
+        "serviceName": "SCC",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 1,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Optional"
+          }
+        ]
+      },
+      {
+        "serviceId": "Ground Supervisor",
+        "serviceName": "Ground Supervisor",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 1,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Fixed"
+          }
+        ]
+      },
+      {
+        "serviceId": "A1 Symbiosis",
+        "serviceName": "A1 Symbiosis",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 1,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "B1 South Tower",
+        "serviceName": "B1 South Tower",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 1,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "C1 North Tower",
+        "serviceName": "C1 North Tower",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 1,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "D1 B3 GDC Counter",
+        "serviceName": "D1 B3 GDC Counter",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 1,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "Break",
+        "serviceName": "Break",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "name": "Minimum Concurrent",
+            "customFieldType": "NUMERIC",
+            "numericValue": 0,
+            "isInteger": true
+          },
+          {
+            "name": "Rotate Officers",
+            "customFieldType": "TEXT",
+            "textValue": "Rotate"
+          }
+        ]
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": "1",
+        "skillName": "1",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "2",
+        "skillName": "2",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "3",
+        "skillName": "3",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "4",
+        "skillName": "4",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "5",
+        "skillName": "5",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "6",
+        "skillName": "6",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "7",
+        "skillName": "7",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "8",
+        "skillName": "8",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "9",
+        "skillName": "9",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "10",
+        "skillName": "10",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "11",
+        "skillName": "11",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "12",
+        "skillName": "12",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "13",
+        "skillName": "13",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "14",
+        "skillName": "14",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "15",
+        "skillName": "15",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "16",
+        "skillName": "16",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "17",
+        "skillName": "17",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "18",
+        "skillName": "18",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "19",
+        "skillName": "19",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "20",
+        "skillName": "20",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "21",
+        "skillName": "21",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "22",
+        "skillName": "22",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "23",
+        "skillName": "23",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "24",
+        "skillName": "24",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "25",
+        "skillName": "25",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "26",
+        "skillName": "26",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "27",
+        "skillName": "27",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "28",
+        "skillName": "28",
+        "defaultTaskDuration": 60,
+        "resourceId": "CE1803",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "29",
+        "skillName": "29",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1577",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "30",
+        "skillName": "30",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1637",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "31",
+        "skillName": "31",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "32",
+        "skillName": "32",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "33",
+        "skillName": "33",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "34",
+        "skillName": "34",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "35",
+        "skillName": "35",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "36",
+        "skillName": "36",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "37",
+        "skillName": "37",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "38",
+        "skillName": "38",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "39",
+        "skillName": "39",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "40",
+        "skillName": "40",
+        "defaultTaskDuration": 60,
+        "resourceId": "CE1803",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "41",
+        "skillName": "41",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1577",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "42",
+        "skillName": "42",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1637",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "43",
+        "skillName": "43",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "44",
+        "skillName": "44",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "45",
+        "skillName": "45",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "46",
+        "skillName": "46",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "47",
+        "skillName": "47",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "48",
+        "skillName": "48",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "49",
+        "skillName": "49",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "50",
+        "skillName": "50",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "51",
+        "skillName": "51",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "52",
+        "skillName": "52",
+        "defaultTaskDuration": 60,
+        "resourceId": "CE1803",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "53",
+        "skillName": "53",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1577",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "54",
+        "skillName": "54",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1637",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "55",
+        "skillName": "55",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "56",
+        "skillName": "56",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "57",
+        "skillName": "57",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "58",
+        "skillName": "58",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "59",
+        "skillName": "59",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "60",
+        "skillName": "60",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "61",
+        "skillName": "61",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "62",
+        "skillName": "62",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "63",
+        "skillName": "63",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "64",
+        "skillName": "64",
+        "defaultTaskDuration": 60,
+        "resourceId": "BE0109",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "65",
+        "skillName": "65",
+        "defaultTaskDuration": 60,
+        "resourceId": "KE0049",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "66",
+        "skillName": "66",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1597",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "67",
+        "skillName": "67",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0617",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "68",
+        "skillName": "68",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1234",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "69",
+        "skillName": "69",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1609",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "70",
+        "skillName": "70",
+        "defaultTaskDuration": 60,
+        "resourceId": "TE0589",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "71",
+        "skillName": "71",
+        "defaultTaskDuration": 60,
+        "resourceId": "GE0024",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "72",
+        "skillName": "72",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1545",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "73",
+        "skillName": "73",
+        "defaultTaskDuration": 60,
+        "resourceId": "CE1803",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "74",
+        "skillName": "74",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1577",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "75",
+        "skillName": "75",
+        "defaultTaskDuration": 60,
+        "resourceId": "HE1637",
+        "serviceId": "Break"
+      }
+    ],
+    "taskList": [
+      {
+        "taskId": "1",
+        "taskName": "1",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "8 AM"
+        ]
+      },
+      {
+        "taskId": "2",
+        "taskName": "2",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "9 AM"
+        ]
+      },
+      {
+        "taskId": "3",
+        "taskName": "3",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "10 AM"
+        ]
+      }
+    ],
+    "timeWindowList": [
+      {
+        "timeWindowId": "8 AM",
+        "timeWindowName": "8 AM",
+        "startDateTime": "2019-09-30T08:00:00",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "timeWindowId": "9 AM",
+        "timeWindowName": "9 AM",
+        "startDateTime": "2019-09-30T09:00:00",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "timeWindowId": "10 AM",
+        "timeWindowName": "10 AM",
+        "startDateTime": "2019-09-30T10:00:00",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "timeWindowId": "11 AM",
+        "timeWindowName": "11 AM",
+        "startDateTime": "2019-09-30T11:00:00",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "timeWindowId": "12 PM",
+        "timeWindowName": "12 PM",
+        "startDateTime": "2019-09-30T12:00:00",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "timeWindowId": "1 PM",
+        "timeWindowName": "1 PM",
+        "startDateTime": "2019-09-30T13:00:00",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "timeWindowId": "2 PM",
+        "timeWindowName": "2 PM",
+        "startDateTime": "2019-09-30T14:00:00",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "timeWindowId": "3 PM",
+        "timeWindowName": "3 PM",
+        "startDateTime": "2019-09-30T15:00:00",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "timeWindowId": "4 PM",
+        "timeWindowName": "4 PM",
+        "startDateTime": "2019-09-30T16:00:00",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "timeWindowId": "5 PM",
+        "timeWindowName": "5 PM",
+        "startDateTime": "2019-09-30T17:00:00",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "timeWindowId": "6 PM",
+        "timeWindowName": "6 PM",
+        "startDateTime": "2019-09-30T18:00:00",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "timeWindowId": "7 PM",
+        "timeWindowName": "7 PM",
+        "startDateTime": "2019-09-30T19:00:00",
+        "endDateTime": "2019-09-30T20:00:00"
+      }
+    ]
+  }
+}

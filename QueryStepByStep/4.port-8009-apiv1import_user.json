@@ -1,0 +1,16 @@
+{
+  "userlist": [
+    {
+      "duty title": "string",
+      "email": "string",
+      "fullname": "string",
+      "group": "general",
+      "name": "string",
+      "password": "sushil",
+      "user role": [
+        "Module User"
+      ],
+      "username": "sushil"
+    }
+  ]
+}

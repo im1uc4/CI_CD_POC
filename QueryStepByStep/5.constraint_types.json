@@ -1,0 +1,61 @@
+{
+	"constraintTypes":[
+    {
+        "constraintTypeId": "RESOURCE_SKILL",
+        "constraintTypeName": "Resource Skill",
+        "defaultDisplayName": "Check that the resource assigned to a task is skilled in the service required by the task.",
+        "parameterList": [
+            {
+                "parameterType": "FIELD_VALUE_LIST",
+                "parameterId": "TASK_FILTER",
+                "parameterNum": 1,
+                "name": "Task Filter",
+                "parameterHiddenConditionList": null,
+                "possibleTableNames": [],
+                "possibleCustomFieldTypes": [],
+                "fieldValueList": null
+            }
+        ]
+    },
+        {
+        "constraintTypeId": "TASKS_OVERLAP",
+        "constraintTypeName": "Tasks Overlap",
+        "defaultDisplayName": "Check that the task assigned blah blah.",
+        "parameterList": [
+            {
+              "parameterId": "OPERATION",
+              "parameterNum": 1,
+              "name": "Operation",
+              "parameterType": "TEXT",
+              "value": "Prefer Separate",
+              "possibleValues": [
+                "Prefer Overlap",
+                "Prefer Separate"
+              ]
+            },
+            {
+              "parameterId": "TASK_FILTER",
+              "parameterNum": 2,
+              "name": "Task Filter",
+              "parameterType": "FIELD_VALUE_LIST",
+              "possibleTableNames": [],
+              "possibleCustomFieldTypes": []
+            },
+            {
+              "parameterId": "TASK_GROUPING",
+              "parameterNum": 3,
+              "name": "Task Grouping",
+              "parameterType": "FIELD_NAME_LIST",
+              "possibleTableNames": [],
+              "possibleCustomFieldTypes": [],
+              "fieldNameList": [
+                {
+                  "tableName": "Resource",
+                  "fieldName": "resourceId"
+                }
+              ]
+            }
+          ]
+    }
+]
+}

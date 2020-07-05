@@ -1,0 +1,5088 @@
+{
+  "jobStatusMessage": "Job 15042020124426 completed successfully",
+  "job": {
+    "jobId": "15042020124426",
+    "submittedDateTime": "2019-10-30T02:06:22.792",
+    "completedDateTime": "2019-10-30T02:06:31.761",
+    "jobSettings": null,
+    "optimisationModel": "ID- Biopolis 1",
+    "dataset": null,
+    "timeSpent": 8
+  },
+  "jobStatusCode": "COMPLETED",
+  "bestSolution": {
+    "datasetId": "Import 1, 11192019",
+    "name": "Example name new",
+    "description": "Example description new",
+    "scheduleDateTime": "2019-09-30T23:59:59",
+    "locationList": [],
+    "resourceList": [
+      {
+        "resourceId": "BE0109",
+        "resourceName": "Luke",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "CSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "KE0049",
+        "resourceName": "Ching",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "CSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "HE1597",
+        "resourceName": "Mow",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "TE0617",
+        "resourceName": "Kumar",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "HE1234",
+        "resourceName": "Quek",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "HE1609",
+        "resourceName": "Sharif",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "TE0589",
+        "resourceName": "Komala",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SS"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "GE0024",
+        "resourceName": "Robert",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "HE1545",
+        "resourceName": "Farah",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SSO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "CE1803",
+        "resourceName": "Tan",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "HE1577",
+        "resourceName": "Soh",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      },
+      {
+        "resourceId": "HE1637",
+        "resourceName": "Ho",
+        "customFieldList": [
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rank",
+            "mandatory": false,
+            "textValue": "SO"
+          }
+        ],
+        "timeWindowIdList": [
+          "8 AM",
+          "9 AM",
+          "10 AM",
+          "11 AM",
+          "12 PM",
+          "1 PM",
+          "2 PM",
+          "3 PM",
+          "4 PM",
+          "5 PM",
+          "6 PM",
+          "7 PM"
+        ],
+        "locationId": null
+      }
+    ],
+    "serviceList": [
+      {
+        "serviceId": "SCC",
+        "serviceName": "SCC",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 1.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Optional"
+          }
+        ]
+      },
+      {
+        "serviceId": "Ground Supervisor",
+        "serviceName": "Ground Supervisor",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 1.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Fixed"
+          }
+        ]
+      },
+      {
+        "serviceId": "A1 Symbiosis",
+        "serviceName": "A1 Symbiosis",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 1.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "B1 South Tower",
+        "serviceName": "B1 South Tower",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 1.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "C1 North Tower",
+        "serviceName": "C1 North Tower",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 1.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "D1 B3 GDC Counter",
+        "serviceName": "D1 B3 GDC Counter",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 1.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Rotate"
+          }
+        ]
+      },
+      {
+        "serviceId": "Break",
+        "serviceName": "Break",
+        "defaultTaskDuration": 60,
+        "customFieldList": [
+          {
+            "customFieldType": "NUMERIC",
+            "customFieldNum": 0,
+            "name": "Minimum Concurrent",
+            "mandatory": false,
+            "numericValue": 0.0,
+            "isInteger": true
+          },
+          {
+            "customFieldType": "TEXT",
+            "customFieldNum": 0,
+            "name": "Rotate Officers",
+            "mandatory": false,
+            "textValue": "Rotate"
+          }
+        ]
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": "1",
+        "skillName": "1",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "2",
+        "skillName": "2",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "3",
+        "skillName": "3",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "4",
+        "skillName": "4",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "5",
+        "skillName": "5",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "6",
+        "skillName": "6",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "7",
+        "skillName": "7",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "8",
+        "skillName": "8",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "9",
+        "skillName": "9",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "SCC"
+      },
+      {
+        "skillId": "10",
+        "skillName": "10",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "11",
+        "skillName": "11",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "12",
+        "skillName": "12",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "13",
+        "skillName": "13",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "14",
+        "skillName": "14",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "15",
+        "skillName": "15",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "16",
+        "skillName": "16",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "17",
+        "skillName": "17",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "18",
+        "skillName": "18",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "Ground Supervisor"
+      },
+      {
+        "skillId": "19",
+        "skillName": "19",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "20",
+        "skillName": "20",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "21",
+        "skillName": "21",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "22",
+        "skillName": "22",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "23",
+        "skillName": "23",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "24",
+        "skillName": "24",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "25",
+        "skillName": "25",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "26",
+        "skillName": "26",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "27",
+        "skillName": "27",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "28",
+        "skillName": "28",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "CE1803",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "29",
+        "skillName": "29",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1577",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "30",
+        "skillName": "30",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1637",
+        "serviceId": "A1 Symbiosis"
+      },
+      {
+        "skillId": "31",
+        "skillName": "31",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "32",
+        "skillName": "32",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "33",
+        "skillName": "33",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "34",
+        "skillName": "34",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "35",
+        "skillName": "35",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "36",
+        "skillName": "36",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "37",
+        "skillName": "37",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "38",
+        "skillName": "38",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "39",
+        "skillName": "39",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "40",
+        "skillName": "40",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "CE1803",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "41",
+        "skillName": "41",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1577",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "42",
+        "skillName": "42",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1637",
+        "serviceId": "B1 South Tower"
+      },
+      {
+        "skillId": "43",
+        "skillName": "43",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "44",
+        "skillName": "44",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "45",
+        "skillName": "45",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "46",
+        "skillName": "46",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "47",
+        "skillName": "47",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "48",
+        "skillName": "48",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "49",
+        "skillName": "49",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "50",
+        "skillName": "50",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "51",
+        "skillName": "51",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "52",
+        "skillName": "52",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "CE1803",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "53",
+        "skillName": "53",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1577",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "54",
+        "skillName": "54",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1637",
+        "serviceId": "C1 North Tower"
+      },
+      {
+        "skillId": "55",
+        "skillName": "55",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "56",
+        "skillName": "56",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "57",
+        "skillName": "57",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "58",
+        "skillName": "58",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "59",
+        "skillName": "59",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "60",
+        "skillName": "60",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "61",
+        "skillName": "61",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "62",
+        "skillName": "62",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "63",
+        "skillName": "63",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "D1 B3 GDC Counter"
+      },
+      {
+        "skillId": "64",
+        "skillName": "64",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "BE0109",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "65",
+        "skillName": "65",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "KE0049",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "66",
+        "skillName": "66",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1597",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "67",
+        "skillName": "67",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0617",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "68",
+        "skillName": "68",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1234",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "69",
+        "skillName": "69",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1609",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "70",
+        "skillName": "70",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "TE0589",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "71",
+        "skillName": "71",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "GE0024",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "72",
+        "skillName": "72",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1545",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "73",
+        "skillName": "73",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "CE1803",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "74",
+        "skillName": "74",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1577",
+        "serviceId": "Break"
+      },
+      {
+        "skillId": "75",
+        "skillName": "75",
+        "defaultTaskDuration": 60,
+        "customFieldList": [],
+        "resourceId": "HE1637",
+        "serviceId": "Break"
+      }
+    ],
+    "taskList": [
+      {
+        "taskId": "1",
+        "taskName": "1",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "2",
+        "taskName": "2",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "3",
+        "taskName": "3",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "4",
+        "taskName": "4",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "5",
+        "taskName": "5",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "6",
+        "taskName": "6",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "7",
+        "taskName": "7",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "8",
+        "taskName": "8",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "9",
+        "taskName": "9",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "10",
+        "taskName": "10",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "11",
+        "taskName": "11",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "12",
+        "taskName": "12",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "13",
+        "taskName": "13",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "14",
+        "taskName": "14",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "15",
+        "taskName": "15",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "16",
+        "taskName": "16",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "17",
+        "taskName": "17",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "18",
+        "taskName": "18",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "19",
+        "taskName": "19",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "20",
+        "taskName": "20",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "21",
+        "taskName": "21",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "22",
+        "taskName": "22",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "23",
+        "taskName": "23",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "24",
+        "taskName": "24",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "25",
+        "taskName": "25",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "26",
+        "taskName": "26",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "27",
+        "taskName": "27",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "28",
+        "taskName": "28",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "29",
+        "taskName": "29",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "30",
+        "taskName": "30",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "31",
+        "taskName": "31",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "32",
+        "taskName": "32",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "33",
+        "taskName": "33",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "34",
+        "taskName": "34",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "35",
+        "taskName": "35",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "36",
+        "taskName": "36",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "37",
+        "taskName": "37",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "38",
+        "taskName": "38",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "39",
+        "taskName": "39",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "40",
+        "taskName": "40",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "41",
+        "taskName": "41",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "42",
+        "taskName": "42",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "43",
+        "taskName": "43",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "44",
+        "taskName": "44",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "45",
+        "taskName": "45",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "46",
+        "taskName": "46",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "47",
+        "taskName": "47",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "48",
+        "taskName": "48",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "SCC",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "49",
+        "taskName": "49",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "50",
+        "taskName": "50",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "51",
+        "taskName": "51",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "52",
+        "taskName": "52",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "53",
+        "taskName": "53",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "54",
+        "taskName": "54",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "55",
+        "taskName": "55",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "56",
+        "taskName": "56",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "57",
+        "taskName": "57",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "58",
+        "taskName": "58",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "59",
+        "taskName": "59",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "60",
+        "taskName": "60",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Ground Supervisor",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "61",
+        "taskName": "61",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "62",
+        "taskName": "62",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "63",
+        "taskName": "63",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "64",
+        "taskName": "64",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "65",
+        "taskName": "65",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "66",
+        "taskName": "66",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "67",
+        "taskName": "67",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "68",
+        "taskName": "68",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "69",
+        "taskName": "69",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "70",
+        "taskName": "70",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "71",
+        "taskName": "71",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "72",
+        "taskName": "72",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "73",
+        "taskName": "73",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "74",
+        "taskName": "74",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "75",
+        "taskName": "75",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "76",
+        "taskName": "76",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "77",
+        "taskName": "77",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "78",
+        "taskName": "78",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "79",
+        "taskName": "79",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "80",
+        "taskName": "80",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "81",
+        "taskName": "81",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "82",
+        "taskName": "82",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "83",
+        "taskName": "83",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "84",
+        "taskName": "84",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "A1 Symbiosis",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "85",
+        "taskName": "85",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "86",
+        "taskName": "86",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "87",
+        "taskName": "87",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "88",
+        "taskName": "88",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "89",
+        "taskName": "89",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "90",
+        "taskName": "90",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "91",
+        "taskName": "91",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "92",
+        "taskName": "92",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "93",
+        "taskName": "93",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "94",
+        "taskName": "94",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "95",
+        "taskName": "95",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "96",
+        "taskName": "96",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "97",
+        "taskName": "97",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "98",
+        "taskName": "98",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "99",
+        "taskName": "99",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "100",
+        "taskName": "100",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "101",
+        "taskName": "101",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "102",
+        "taskName": "102",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "103",
+        "taskName": "103",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "104",
+        "taskName": "104",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "105",
+        "taskName": "105",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "106",
+        "taskName": "106",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "107",
+        "taskName": "107",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "108",
+        "taskName": "108",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "B1 South Tower",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "109",
+        "taskName": "109",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "110",
+        "taskName": "110",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "111",
+        "taskName": "111",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "112",
+        "taskName": "112",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "113",
+        "taskName": "113",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "114",
+        "taskName": "114",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "115",
+        "taskName": "115",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "116",
+        "taskName": "116",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "117",
+        "taskName": "117",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "118",
+        "taskName": "118",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "119",
+        "taskName": "119",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "120",
+        "taskName": "120",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "121",
+        "taskName": "121",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "122",
+        "taskName": "122",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "123",
+        "taskName": "123",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "124",
+        "taskName": "124",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "125",
+        "taskName": "125",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "126",
+        "taskName": "126",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "127",
+        "taskName": "127",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "128",
+        "taskName": "128",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "129",
+        "taskName": "129",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "130",
+        "taskName": "130",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "131",
+        "taskName": "131",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "132",
+        "taskName": "132",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "C1 North Tower",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "133",
+        "taskName": "133",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "134",
+        "taskName": "134",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "135",
+        "taskName": "135",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "136",
+        "taskName": "136",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "137",
+        "taskName": "137",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "138",
+        "taskName": "138",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "139",
+        "taskName": "139",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "140",
+        "taskName": "140",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "141",
+        "taskName": "141",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "142",
+        "taskName": "142",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "143",
+        "taskName": "143",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "144",
+        "taskName": "144",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "145",
+        "taskName": "145",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "146",
+        "taskName": "146",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "147",
+        "taskName": "147",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "148",
+        "taskName": "148",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "149",
+        "taskName": "149",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "150",
+        "taskName": "150",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "151",
+        "taskName": "151",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "152",
+        "taskName": "152",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "153",
+        "taskName": "153",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "154",
+        "taskName": "154",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "155",
+        "taskName": "155",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "156",
+        "taskName": "156",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "D1 B3 GDC Counter",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "157",
+        "taskName": "157",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "158",
+        "taskName": "158",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "159",
+        "taskName": "159",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "160",
+        "taskName": "160",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "161",
+        "taskName": "161",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "TE0589",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "162",
+        "taskName": "162",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "163",
+        "taskName": "163",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "KE0049",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "164",
+        "taskName": "164",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "165",
+        "taskName": "165",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "166",
+        "taskName": "166",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "167",
+        "taskName": "167",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "168",
+        "taskName": "168",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "169",
+        "taskName": "169",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "170",
+        "taskName": "170",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "171",
+        "taskName": "171",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "172",
+        "taskName": "172",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "173",
+        "taskName": "173",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "174",
+        "taskName": "174",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "HE1545",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "175",
+        "taskName": "175",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "176",
+        "taskName": "176",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "177",
+        "taskName": "177",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "178",
+        "taskName": "178",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "179",
+        "taskName": "179",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "180",
+        "taskName": "180",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "181",
+        "taskName": "181",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "182",
+        "taskName": "182",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "183",
+        "taskName": "183",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "184",
+        "taskName": "184",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "185",
+        "taskName": "185",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "TE0617",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "186",
+        "taskName": "186",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "BE0109",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "187",
+        "taskName": "187",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "HE1609",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "188",
+        "taskName": "188",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "189",
+        "taskName": "189",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "190",
+        "taskName": "190",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "191",
+        "taskName": "191",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "192",
+        "taskName": "192",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "193",
+        "taskName": "193",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "194",
+        "taskName": "194",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "195",
+        "taskName": "195",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "196",
+        "taskName": "196",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "197",
+        "taskName": "197",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "HE1577",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "198",
+        "taskName": "198",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "199",
+        "taskName": "199",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "200",
+        "taskName": "200",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "201",
+        "taskName": "201",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "202",
+        "taskName": "202",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "203",
+        "taskName": "203",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "204",
+        "taskName": "204",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "205",
+        "taskName": "205",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "206",
+        "taskName": "206",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "207",
+        "taskName": "207",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "208",
+        "taskName": "208",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": "CE1803",
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "209",
+        "taskName": "209",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": "GE0024",
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "210",
+        "taskName": "210",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "HE1637",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "211",
+        "taskName": "211",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "212",
+        "taskName": "212",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "213",
+        "taskName": "213",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "214",
+        "taskName": "214",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "215",
+        "taskName": "215",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "216",
+        "taskName": "216",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      },
+      {
+        "taskId": "217",
+        "taskName": "217",
+        "startDateTime": "2019-09-30T08:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "8 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "8 AM",
+        "endDateTime": "2019-09-30T09:00:00"
+      },
+      {
+        "taskId": "218",
+        "taskName": "218",
+        "startDateTime": "2019-09-30T09:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "9 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "9 AM",
+        "endDateTime": "2019-09-30T10:00:00"
+      },
+      {
+        "taskId": "219",
+        "taskName": "219",
+        "startDateTime": "2019-09-30T10:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "10 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "10 AM",
+        "endDateTime": "2019-09-30T11:00:00"
+      },
+      {
+        "taskId": "220",
+        "taskName": "220",
+        "startDateTime": "2019-09-30T11:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "11 AM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "11 AM",
+        "endDateTime": "2019-09-30T12:00:00"
+      },
+      {
+        "taskId": "221",
+        "taskName": "221",
+        "startDateTime": "2019-09-30T12:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "12 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "12 PM",
+        "endDateTime": "2019-09-30T13:00:00"
+      },
+      {
+        "taskId": "222",
+        "taskName": "222",
+        "startDateTime": "2019-09-30T13:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "1 PM"
+        ],
+        "resourceId": "HE1597",
+        "locationId": null,
+        "timeWindowId": "1 PM",
+        "endDateTime": "2019-09-30T14:00:00"
+      },
+      {
+        "taskId": "223",
+        "taskName": "223",
+        "startDateTime": "2019-09-30T14:00:00",
+        "taskDuration": 60,
+        "resourceLocked": false,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "2 PM"
+        ],
+        "resourceId": "HE1234",
+        "locationId": null,
+        "timeWindowId": "2 PM",
+        "endDateTime": "2019-09-30T15:00:00"
+      },
+      {
+        "taskId": "224",
+        "taskName": "224",
+        "startDateTime": "2019-09-30T15:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "3 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "3 PM",
+        "endDateTime": "2019-09-30T16:00:00"
+      },
+      {
+        "taskId": "225",
+        "taskName": "225",
+        "startDateTime": "2019-09-30T16:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "4 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "4 PM",
+        "endDateTime": "2019-09-30T17:00:00"
+      },
+      {
+        "taskId": "226",
+        "taskName": "226",
+        "startDateTime": "2019-09-30T17:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "5 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "5 PM",
+        "endDateTime": "2019-09-30T18:00:00"
+      },
+      {
+        "taskId": "227",
+        "taskName": "227",
+        "startDateTime": "2019-09-30T18:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "6 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "6 PM",
+        "endDateTime": "2019-09-30T19:00:00"
+      },
+      {
+        "taskId": "228",
+        "taskName": "228",
+        "startDateTime": "2019-09-30T19:00:00",
+        "taskDuration": 60,
+        "resourceLocked": true,
+        "startDateTimeLocked": true,
+        "customFieldList": [],
+        "serviceId": "Break",
+        "timeWindowIdList": [
+          "7 PM"
+        ],
+        "resourceId": null,
+        "locationId": null,
+        "timeWindowId": "7 PM",
+        "endDateTime": "2019-09-30T20:00:00"
+      }
+    ],
+    "timeWindowList": [
+      {
+        "timeWindowId": "8 AM",
+        "timeWindowName": "8 AM",
+        "startDateTime": "2019-09-30T08:00:00",
+        "endDateTime": "2019-09-30T09:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "9 AM",
+        "timeWindowName": "9 AM",
+        "startDateTime": "2019-09-30T09:00:00",
+        "endDateTime": "2019-09-30T10:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "10 AM",
+        "timeWindowName": "10 AM",
+        "startDateTime": "2019-09-30T10:00:00",
+        "endDateTime": "2019-09-30T11:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "11 AM",
+        "timeWindowName": "11 AM",
+        "startDateTime": "2019-09-30T11:00:00",
+        "endDateTime": "2019-09-30T12:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "12 PM",
+        "timeWindowName": "12 PM",
+        "startDateTime": "2019-09-30T12:00:00",
+        "endDateTime": "2019-09-30T13:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "1 PM",
+        "timeWindowName": "1 PM",
+        "startDateTime": "2019-09-30T13:00:00",
+        "endDateTime": "2019-09-30T14:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "2 PM",
+        "timeWindowName": "2 PM",
+        "startDateTime": "2019-09-30T14:00:00",
+        "endDateTime": "2019-09-30T15:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "3 PM",
+        "timeWindowName": "3 PM",
+        "startDateTime": "2019-09-30T15:00:00",
+        "endDateTime": "2019-09-30T16:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "4 PM",
+        "timeWindowName": "4 PM",
+        "startDateTime": "2019-09-30T16:00:00",
+        "endDateTime": "2019-09-30T17:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "5 PM",
+        "timeWindowName": "5 PM",
+        "startDateTime": "2019-09-30T17:00:00",
+        "endDateTime": "2019-09-30T18:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "6 PM",
+        "timeWindowName": "6 PM",
+        "startDateTime": "2019-09-30T18:00:00",
+        "endDateTime": "2019-09-30T19:00:00",
+        "customFieldList": []
+      },
+      {
+        "timeWindowId": "7 PM",
+        "timeWindowName": "7 PM",
+        "startDateTime": "2019-09-30T19:00:00",
+        "endDateTime": "2019-09-30T20:00:00",
+        "customFieldList": []
+      }
+    ],
+    "isMasterDataset": true
+  },
+  "updateDateTime": "2019-10-30T02:06:38.648",
+  "bestScore": {
+    "init": 0,
+    "hard": 0,
+    "medium": 0,
+    "soft": 0
+  }
+}
