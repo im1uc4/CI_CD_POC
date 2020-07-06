@@ -3,7 +3,7 @@ services:
         -docker
 script:
         -docker build -f brain-server/DockerFileDev -t sushilis/mserver .
-        -docker build -f Mysql/DockerFileDev -t sushilis/mMysql .
+        -docker build -f Mysql/DockerFileDev -t sushilis/mmysql .
         -docker build -f brain-core-api/DockerFileDev -t sushilis/mcore .
         -docker build -f brain-zuul/DockerFileDev -t sushilis/mzuul .
         
