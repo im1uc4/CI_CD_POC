@@ -12,6 +12,8 @@ services:
       dockerfile: Mysql/DockerFileDev
     ports:
       - '3306:3306'
+    volumes:
+      - /Mysql/mysql_data:/var/lib/mysql
 
   server:
     container_name: server
