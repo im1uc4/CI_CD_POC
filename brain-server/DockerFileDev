@@ -4,7 +4,7 @@
 FROM maven:3.6.0-jdk-11-slim AS build
 COPY brain-server/src /home/app/src
 COPY brain-server/pom.xml /home/app
-RUN mvn -B -f /home/app/pom.xml clean package
+RUN mvn -f /home/app/pom.xml clean package -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn
 
 #
 # Package stage
