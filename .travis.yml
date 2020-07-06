@@ -9,9 +9,9 @@ script:
         
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
-        - docker push sushilis/mserver
-        - docker push  sushilis/mmysql
-        - docker push sushilis/mcore
-        - docker push sushilis/mzuul
+        - docker push sushilisfine/mserver
+        - docker push  sushilisfine/mmysql
+        - docker push sushilisfine/mcore
+        - docker push sushilisfine/mzuul
 
         
