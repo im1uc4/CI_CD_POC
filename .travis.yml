@@ -1,17 +1,17 @@
 sudo: required
 services:
-        -docker
+        - docker
 script:
-        -docker build -f brain-server/DockerFileDev -t sushilis/mserver .
-        -docker build -f Mysql/DockerFileDev -t sushilis/mmysql .
-        -docker build -f brain-core-api/DockerFileDev -t sushilis/mcore .
-        -docker build -f brain-zuul/DockerFileDev -t sushilis/mzuul .
+        - docker build -f brain-server/DockerFileDev -t sushilis/mserver .
+        - docker build -f Mysql/DockerFileDev -t sushilis/mmysql .
+        - docker build -f brain-core-api/DockerFileDev -t sushilis/mcore .
+        - docker build -f brain-zuul/DockerFileDev -t sushilis/mzuul .
         
-        -echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
-        -docker push sushilis/mserver
-        -docker push  sushilis/mmysql
-        -docker push sushilis/mcore
-        -docker push sushilis/mzuul
+        - docker push sushilis/mserver
+        - docker push  sushilis/mmysql
+        - docker push sushilis/mcore
+        - docker push sushilis/mzuul
 
         
