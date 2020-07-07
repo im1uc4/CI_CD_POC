@@ -14,7 +14,7 @@ script:
         - docker push  sushilisfine/mmysql
         - docker push sushilisfine/mcore
         - docker push sushilisfine/mzuul
-        - docker push sushilisfine/mautih
+        - docker push sushilisfine/mauth
 
 
 
