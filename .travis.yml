@@ -6,6 +6,7 @@ script:
         - docker build -f Mysql/DockerFileDev -t sushilisfine/mmysql .
         - docker build -f brain-core-api/DockerFileDev -t sushilisfine/mcore .
         - docker build -f brain-zuul/DockerFileDev -t sushilisfine/mzuul .
+        - docker build -f brain-auth/DockerFileDev -t sushilisfine/mauth .
         
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
@@ -13,6 +14,19 @@ script:
         - docker push  sushilisfine/mmysql
         - docker push sushilisfine/mcore
         - docker push sushilisfine/mzuul
+        - docker push sushilisfine/mautih
 
 
-        
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
+  region: "ap-south-1"
+  app: "resopt-docker"
+  env: "ResoptDocker-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-843615263948"
+  bucker_path: "resopt_docker"
+          

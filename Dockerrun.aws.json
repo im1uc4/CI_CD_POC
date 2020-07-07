@@ -1,0 +1,61 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+       {
+      "name": "nserver",
+      "image": "sushilisfine/mserver",
+      "essential": true,
+      "hostname":"server",
+      "portMappings": [
+        {
+          "hostPort": 8761,
+          "containerPort": 8761
+        }
+      ]
+    },
+    {
+      "name": "ncore",
+      "image": "sushilisfine/mcore",
+      "essential": false,
+      "hostname":"core",
+      "portMappings": [
+        {
+          "hostPort": 8009,
+          "containerPort": 8009
+        }
+      ],
+      "links": [
+        "nserver"
+      ]
+    },{
+      "name": "nzuul",
+      "image": "sushilisfine/mzuul",
+      "hostname":"zuul",
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 3000,
+          "containerPort": 3000
+        }
+      ],
+      "links": [
+        "nserver","ncore","nauth"
+      ]
+    },
+    {
+      "name": "nauth",
+      "image": "sushilisfine/mauth",
+      "hostname":"auth",
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 9100,
+          "containerPort": 9100
+        }
+      ],
+      "links": [
+        "nserver"
+      ]
+    }
+  ]
+}
