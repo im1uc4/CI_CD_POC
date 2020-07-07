@@ -27,5 +27,5 @@ deploy:
   app: "resopt-docker"
   env: "ResoptDocker-env"
   bucket_name: "elasticbeanstalk-ap-south-1-843615263948"
-  bucker_path: "resopt_docker"
+  bucker_path: "resopt-docker"
           
