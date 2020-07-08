@@ -14,7 +14,7 @@ script:
         - docker push sushilisfine/mcore
         - docker push sushilisfine/mzuul
         - docker push sushilisfine/mauth
-        - docker push sushilisfine/mginx
+        - docker push sushilisfine/mnginx
 
 
 deploy:
