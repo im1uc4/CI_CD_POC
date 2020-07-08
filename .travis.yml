@@ -6,6 +6,7 @@ script:
         - docker build -f brain-core-api/DockerFileDev -t sushilisfine/mcore .
         - docker build -f brain-zuul/DockerFileDev -t sushilisfine/mzuul .
         - docker build -f brain-auth/DockerFileDev -t sushilisfine/mauth .
+        - docker build -f brain-auth/DockerFileDev -t sushilisfine/mnginx .
         
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
@@ -13,7 +14,7 @@ script:
         - docker push sushilisfine/mcore
         - docker push sushilisfine/mzuul
         - docker push sushilisfine/mauth
-
+        - docker push sushilisfine/mginx
 
 
 deploy:

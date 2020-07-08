@@ -60,6 +60,22 @@
       "links": [
         "nserver"
       ]
+    },
+	{
+      "name": "nnginx",
+      "image": "sushilisfine/mnginx",
+      "hostname":"nginx",
+      "essential": true,
+      "memory": 512,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ],
+      "links": [
+        "nzuul"
+      ]
     }
   ]
 }
