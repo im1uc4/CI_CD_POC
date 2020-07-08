@@ -20,10 +20,9 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id:
-    secure: $AWS_ACCESS_KEY
+  access_key_id: "AKIA4I23DLTGLQNTZ4ES"
   secret_access_key:
-    secure: $AWS_SECRET_KEY
+    secure: "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"
   region: "ap-south-1"
   app: "resopt-docker"
   env: "ResoptDocker-env"
