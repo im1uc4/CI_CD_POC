@@ -6,7 +6,7 @@
       "image": "sushilisfine/mserver",
       "essential": true,
       "hostname":"server",
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 8761,
@@ -19,7 +19,7 @@
       "image": "sushilisfine/mcore",
       "essential": false,
       "hostname":"core",
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 8009,
@@ -33,7 +33,7 @@
       "name": "nzuul",
       "image": "sushilisfine/mzuul",
       "hostname":"zuul",
-      "memory": 512,
+      "memory": 128,
       "essential": true,
       "portMappings": [
         {
@@ -50,7 +50,7 @@
       "image": "sushilisfine/mauth",
       "hostname":"auth",
       "essential": true,
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 9100,
@@ -66,7 +66,7 @@
       "image": "sushilisfine/mnginx",
       "hostname":"nginx",
       "essential": true,
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 80,
