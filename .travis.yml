@@ -2,19 +2,19 @@ sudo: required
 services:
         - docker
 script:
-        - docker build -f brain-server/DockerFileDev -t sushilisfine/mserver .
-        - docker build -f brain-core-api/DockerFileDev -t sushilisfine/mcore .
-        - docker build -f brain-zuul/DockerFileDev -t sushilisfine/mzuul .
-        - docker build -f brain-auth/DockerFileDev -t sushilisfine/mauth .
-        - docker build -f brain-auth/DockerFileDev -t sushilisfine/mnginx .
+        - docker build -f brain-server/DockerFileDev -t sushilisfine/kserver .
+        - docker build -f brain-core-api/DockerFileDev -t sushilisfine/kcore .
+        - docker build -f brain-zuul/DockerFileDev -t sushilisfine/kzuul .
+        - docker build -f brain-auth/DockerFileDev -t sushilisfine/kauth .
+        - docker build -f brain-auth/DockerFileDev -t sushilisfine/knginx .
         
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
-        - docker push sushilisfine/mserver
-        - docker push sushilisfine/mcore
-        - docker push sushilisfine/mzuul
-        - docker push sushilisfine/mauth
-        - docker push sushilisfine/mnginx
+        - docker push sushilisfine/kserver
+        - docker push sushilisfine/kcore
+        - docker push sushilisfine/kzuul
+        - docker push sushilisfine/kauth
+        - docker push sushilisfine/knginx
 
 
 deploy:
