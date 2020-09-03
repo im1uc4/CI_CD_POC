@@ -27,7 +27,7 @@
         }
       ],
       "links": [
-        "nserver"
+        "nameserver"
       ]
     },{
       "name": "namezuul",
