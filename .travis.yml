@@ -21,7 +21,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   region: "ap-south-1"
   app: "resopt-docker"
-  env: "ResoptDocker-env"
+  env: "ResoptDocker-env-1"
   bucket_name: "elasticbeanstalk-ap-south-1-843615263948"
   bucker_path: "resopt-docker"
           
