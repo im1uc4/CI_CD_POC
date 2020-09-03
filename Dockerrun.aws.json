@@ -2,8 +2,8 @@
   "AWSEBDockerrunVersion": 2,
   "containerDefinitions": [
        {
-      "name": "nserver",
-      "image": "sushilisfine/mserver",
+      "name": "nameserver",
+      "image": "sushilisfine/pocserver",
       "essential": true,
       "hostname":"server",
       "memory": 128,
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "name": "ncore",
-      "image": "sushilisfine/mcore",
+      "name": "namecore",
+      "image": "sushilisfine/poccore",
       "essential": false,
       "hostname":"core",
       "memory": 128,
@@ -30,8 +30,8 @@
         "nserver"
       ]
     },{
-      "name": "nzuul",
-      "image": "sushilisfine/mzuul",
+      "name": "namezuul",
+      "image": "sushilisfine/poczuul",
       "hostname":"zuul",
       "memory": 128,
       "essential": true,
@@ -42,12 +42,12 @@
         }
       ],
       "links": [
-        "nserver","ncore","nauth"
+        "nameserver","namecore","nameauth"
       ]
     },
     {
-      "name": "nauth",
-      "image": "sushilisfine/mauth",
+      "name": "nameauth",
+      "image": "sushilisfine/pocauth",
       "hostname":"auth",
       "essential": true,
       "memory": 128,
@@ -58,12 +58,12 @@
         }
       ],
       "links": [
-        "nserver"
+        "nameserver"
       ]
     },
 	{
-      "name": "nnginx",
-      "image": "sushilisfine/mnginx",
+      "name": "namenginx",
+      "image": "sushilisfine/pocnginx",
       "hostname":"nginx",
       "essential": true,
       "memory": 128,
@@ -74,7 +74,7 @@
         }
       ],
       "links": [
-        "nzuul"
+        "namezuul"
       ]
     }
   ]
