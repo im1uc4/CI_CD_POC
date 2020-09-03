@@ -11,7 +11,7 @@ spring:
                              format_sql: false
                              dialect: org.hibernate.dialect.MySQL5InnoDBDialect
       datasource:
-               url: jdbc:mysql://${SQL_URL}:${SQL_PORT}/optimisation?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+               url: jdbc:mysql://database.c1jmuf6aztql.ap-south-1.rds.amazonaws.com:3306/optimisation?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
                username: root
                password: rootroot
                initialization-mode: always
