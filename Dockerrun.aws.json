@@ -6,7 +6,7 @@
       "image": "sushilisfine/pocserver",
       "essential": true,
       "hostname":"server",
-      "memory": 512,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 8761,
@@ -19,7 +19,7 @@
       "image": "sushilisfine/poccore",
       "essential": false,
       "hostname":"core",
-      "memory": 512,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 8009,
@@ -33,7 +33,7 @@
       "name": "namezuul",
       "image": "sushilisfine/poczuul",
       "hostname":"zuul",
-      "memory": 512,
+      "memory": 256,
       "essential": true,
       "portMappings": [
         {
@@ -50,7 +50,7 @@
       "image": "sushilisfine/pocauth",
       "hostname":"auth",
       "essential": true,
-      "memory": 512,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 9100,

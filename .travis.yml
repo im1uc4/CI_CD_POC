@@ -6,15 +6,13 @@ script:
         - docker build -f brain-core-api/DockerFileDev -t sushilisfine/poccore .
         - docker build -f brain-zuul/DockerFileDev -t sushilisfine/poczuul .
         - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocauth .
-        - docker build -f nginx/DockerFileDev -t sushilisfine/pocnginx .
-        
+
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
         - docker push sushilisfine/pocserver
         - docker push sushilisfine/poccore
         - docker push sushilisfine/poczuul
         - docker push sushilisfine/pocauth
-        - docker push sushilisfine/pocnginx
 
 
 deploy:
