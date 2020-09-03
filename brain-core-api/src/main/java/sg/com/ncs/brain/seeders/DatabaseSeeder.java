@@ -13,14 +13,8 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 import sg.com.ncs.brain.controller.UserController;
-import sg.com.ncs.brain.entities.model.AccessType;
-import sg.com.ncs.brain.entities.model.GeneralFieldsTemplates;
-import sg.com.ncs.brain.entities.model.GeneralTablesTemplates;
 import sg.com.ncs.brain.entities.user.maint.Groups;
 import sg.com.ncs.brain.entities.user.maint.Roles;
-import sg.com.ncs.brain.repository.AccessTypeRepository;
-import sg.com.ncs.brain.repository.GeneralFieldsTemplatesRepository;
-import sg.com.ncs.brain.repository.GeneralTableTemplatesRepository;
 import sg.com.ncs.brain.repository.GroupsRepository;
 import sg.com.ncs.brain.repository.RolesRepository;
 import sg.com.ncs.brain.repository.UserRepository;
