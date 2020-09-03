@@ -6,7 +6,7 @@ script:
         - docker build -f brain-core-api/DockerFileDev -t sushilisfine/poccore .
         - docker build -f brain-zuul/DockerFileDev -t sushilisfine/poczuul .
         - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocauth .
-        - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocnginx .
+        - docker build -f nginx/DockerFileDev -t sushilisfine/pocnginx .
         
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
