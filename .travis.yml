@@ -2,18 +2,19 @@ sudo: required
 services:
         - docker
 script:
-        - docker build -f brain-server/DockerFileDev -t sushilisfine/pocserver .
-        - docker build -f brain-core-api/DockerFileDev -t sushilisfine/poccore .
-        - docker build -f brain-zuul/DockerFileDev -t sushilisfine/poczuul .
-        - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocauth .
+        - docker build -f brain-server/DockerFileDev -t sushilisfine/pocserver:1 .
+        - docker build -f brain-core-api/DockerFileDev -t sushilisfine/poccore:1 .
+        - docker build -f brain-zuul/DockerFileDev -t sushilisfine/poczuul:1 .
+        - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocauth:1 .
+        - docker build -f nginx/DockerFileDev -t sushilisfine/pocnginx:1 .
 
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
-        - docker push sushilisfine/pocserver
-        - docker push sushilisfine/poccore
-        - docker push sushilisfine/poczuul
-        - docker push sushilisfine/pocauth
-
+        - docker push sushilisfine/pocserver:1
+        - docker push sushilisfine/poccore:1
+        - docker push sushilisfine/poczuul:1
+        - docker push sushilisfine/pocauth:1
+        - docker push sushilisfine/pocnginx:1
 
 deploy:
   provider: elasticbeanstalk
@@ -21,7 +22,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   region: "ap-south-1"
   app: "resopt-docker"
-  env: "ResoptDocker-env-1"
+  env: "ResoptDocker-env"
   bucket_name: "elasticbeanstalk-ap-south-1-843615263948"
-  bucker_path: "resopt-docker"
+  bucker_path: "resopt-docker-poc"
           

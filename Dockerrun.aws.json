@@ -3,10 +3,10 @@
   "containerDefinitions": [
        {
       "name": "nameserver",
-      "image": "sushilisfine/pocserver",
+      "image": "sushilisfine/pocserver:1",
       "essential": true,
       "hostname":"server",
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 8761,
@@ -16,10 +16,10 @@
     },
     {
       "name": "namecore",
-      "image": "sushilisfine/poccore",
+      "image": "sushilisfine/poccore:1",
       "essential": false,
       "hostname":"core",
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 8009,
@@ -31,9 +31,9 @@
       ]
     },{
       "name": "namezuul",
-      "image": "sushilisfine/poczuul",
+      "image": "sushilisfine/poczuul:1",
       "hostname":"zuul",
-      "memory": 512,
+      "memory": 128,
       "essential": true,
       "portMappings": [
         {
@@ -47,10 +47,10 @@
     },
     {
       "name": "nameauth",
-      "image": "sushilisfine/pocauth",
+      "image": "sushilisfine/pocauth:1",
       "hostname":"auth",
       "essential": true,
-      "memory": 512,
+      "memory": 128,
       "portMappings": [
         {
           "hostPort": 9100,
@@ -60,6 +60,22 @@
       "links": [
         "nameserver"
       ]
-    }
+    },
+    {
+     "name": "namenginx",
+     "image": "sushilisfine/pocnginx:1",
+     "hostname":"nginx",
+     "essential": true,
+     "memory": 128,
+     "portMappings": [
+       {
+         "hostPort": 80,
+         "containerPort": 80
+       }
+     ],
+     "links": [
+       "namezuul"
+     ]
+   }
   ]
 }
