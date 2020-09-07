@@ -71,7 +71,7 @@
      "hostname":"nginx",
      "essential": true,
      "memoryReservation": 256,
-      "memory": 256,
+     "memory": 256,
      "portMappings": [
        {
          "hostPort": 80,
