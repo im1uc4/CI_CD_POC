@@ -6,7 +6,8 @@
       "image": "sushilisfine/pocserver:2",
       "essential": true,
       "hostname":"server",
-      "memoryReservation": 200,
+      "memoryReservation": 256,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 8761,
@@ -19,7 +20,8 @@
       "image": "sushilisfine/poccore:2",
       "essential": false,
       "hostname":"core",
-      "memoryReservation": 200,
+      "memoryReservation": 256,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 8009,
@@ -33,7 +35,8 @@
       "name": "namezuul",
       "image": "sushilisfine/poczuul:2",
       "hostname":"zuul",
-      "memoryReservation": 200,
+      "memoryReservation": 256,
+      "memory": 256,
       "essential": true,
       "portMappings": [
         {
@@ -50,7 +53,8 @@
       "image": "sushilisfine/pocauth:2",
       "hostname":"auth",
       "essential": true,
-      "memoryReservation": 200,
+      "memoryReservation": 256,
+      "memory": 256,
       "portMappings": [
         {
           "hostPort": 9100,
@@ -66,7 +70,8 @@
      "image": "sushilisfine/pocnginx:2",
      "hostname":"nginx",
      "essential": true,
-     "memoryReservation": 200,
+     "memoryReservation": 256,
+      "memory": 256,
      "portMappings": [
        {
          "hostPort": 80,
