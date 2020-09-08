@@ -2,19 +2,19 @@ sudo: required
 services:
         - docker
 script:
-        - docker build -f brain-server/DockerFileDev -t sushilisfine/pocserver:2 .
-        - docker build -f brain-core-api/DockerFileDev -t sushilisfine/poccore:2 .
-        - docker build -f brain-zuul/DockerFileDev -t sushilisfine/poczuul:2 .
-        - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocauth:2 .
-        - docker build -f nginx/DockerFileDev -t sushilisfine/pocnginx:2 .
+        - docker build -f brain-server/DockerFileDev -t sushilisfine/pocserver:3 .
+        - docker build -f brain-core-api/DockerFileDev -t sushilisfine/poccore:3 .
+        - docker build -f brain-zuul/DockerFileDev -t sushilisfine/poczuul:3 .
+        - docker build -f brain-auth/DockerFileDev -t sushilisfine/pocauth:3 .
+        - docker build -f nginx/DockerFileDev -t sushilisfine/pocnginx:3 .
 
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
         
-        - docker push sushilisfine/pocserver:2
-        - docker push sushilisfine/poccore:2
-        - docker push sushilisfine/poczuul:2
-        - docker push sushilisfine/pocauth:2
-        - docker push sushilisfine/pocnginx:2
+        - docker push sushilisfine/pocserver:3
+        - docker push sushilisfine/poccore:3
+        - docker push sushilisfine/poczuul:3
+        - docker push sushilisfine/pocauth:3
+        - docker push sushilisfine/pocnginx:3
 
 deploy:
   provider: elasticbeanstalk

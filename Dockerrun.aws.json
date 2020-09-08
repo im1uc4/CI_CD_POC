@@ -3,9 +3,9 @@
   "containerDefinitions": [
        {
       "name": "nameserver",
-      "image": "sushilisfine/pocserver:2",
+      "image": "sushilisfine/pocserver:3",
       "essential": true,
-      "hostname":"server",
+      "hostname":"pcserver",
       "memoryReservation": 256,
       "memory": 256,
       "portMappings": [
@@ -17,9 +17,9 @@
     },
     {
       "name": "namecore",
-      "image": "sushilisfine/poccore:2",
+      "image": "sushilisfine/poccore:3",
       "essential": false,
-      "hostname":"core",
+      "hostname":"pccore",
       "memoryReservation": 256,
       "memory": 256,
       "portMappings": [
@@ -33,8 +33,8 @@
       ]
     },{
       "name": "namezuul",
-      "image": "sushilisfine/poczuul:2",
-      "hostname":"zuul",
+      "image": "sushilisfine/poczuul:3",
+      "hostname":"pczuul",
       "memoryReservation": 256,
       "memory": 256,
       "essential": true,
@@ -50,8 +50,8 @@
     },
     {
       "name": "nameauth",
-      "image": "sushilisfine/pocauth:2",
-      "hostname":"auth",
+      "image": "sushilisfine/pocauth:3",
+      "hostname":"pcauth",
       "essential": true,
       "memoryReservation": 256,
       "memory": 256,
@@ -67,8 +67,8 @@
     },
     {
      "name": "namenginx",
-     "image": "sushilisfine/pocnginx:2",
-     "hostname":"nginx",
+     "image": "sushilisfine/pocnginx:3",
+     "hostname":"pcnginx",
      "essential": true,
      "memoryReservation": 256,
      "memory": 256,
