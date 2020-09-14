@@ -7,7 +7,7 @@
       "essential": true,
       "hostname":"pcserver",
       "memoryReservation": 1024,
-      "memory": 1024,
+      "memory": 750,
       "portMappings": [
         {
           "hostPort": 8761,
@@ -21,7 +21,7 @@
       "essential": false,
       "hostname":"pccore",
       "memoryReservation": 1024,
-      "memory": 1024,
+      "memory": 750,
       "portMappings": [
         {
           "hostPort": 8009,
@@ -36,7 +36,7 @@
       "image": "sushilisfine/poczuul:3",
       "hostname":"pczuul",
       "memoryReservation": 1024,
-      "memory": 1024,
+      "memory": 750,
       "essential": true,
       "portMappings": [
         {
@@ -54,7 +54,7 @@
       "hostname":"pcauth",
       "essential": true,
       "memoryReservation": 1024,
-      "memory": 1024,
+      "memory": 750,
       "portMappings": [
         {
           "hostPort": 9100,
@@ -71,7 +71,7 @@
      "hostname":"pcnginx",
      "essential": true,
      "memoryReservation": 1024,
-     "memory": 1024,
+     "memory": 750,
      "portMappings": [
        {
          "hostPort": 80,
