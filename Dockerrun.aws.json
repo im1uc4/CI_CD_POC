@@ -4,7 +4,7 @@
        {
       "name": "nameserver",
       "image": "sushilisfine/pocserver:4",
-      "essential": false,
+      "essential": true,
       "hostname":"pcserver",
       "memoryReservation": 128,
       "memory": 256,
