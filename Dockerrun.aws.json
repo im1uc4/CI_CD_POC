@@ -4,7 +4,7 @@
        {
       "name": "nameserver",
       "image": "sushilisfine/pocserver:4",
-      "essential": true,
+      "essential": false,
       "hostname":"pcserver",
       "memoryReservation": 128,
       "memory": 256,
@@ -37,7 +37,7 @@
       "hostname":"pczuul",
       "memoryReservation": 128,
       "memory": 256,
-      "essential": true,
+      "essential": false,
       "portMappings": [
         {
           "hostPort": 3000,
@@ -52,7 +52,7 @@
       "name": "nameauth",
       "image": "sushilisfine/pocauth:4",
       "hostname":"pcauth",
-      "essential": true,
+      "essential": false,
       "memoryReservation": 128,
       "memory": 256,
       "portMappings": [
@@ -69,7 +69,7 @@
      "name": "namenginx",
      "image": "sushilisfine/pocnginx:4",
      "hostname":"pcnginx",
-     "essential": true,
+     "essential": false,
      "memoryReservation": 128,
      "memory": 256,
      "portMappings": [
