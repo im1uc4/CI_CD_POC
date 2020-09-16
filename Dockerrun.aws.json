@@ -7,7 +7,7 @@
       "essential": true,
       "hostname":"pcserver",
       "memoryReservation": 128,
-      "memory": 256,
+      "memory": 156,
       "portMappings": [
         {
           "hostPort": 8761,
@@ -19,7 +19,7 @@
       "image": "sushilisfine/poczuul:4",
       "hostname":"pczuul",
       "memoryReservation": 128,
-      "memory": 256,
+      "memory": 156,
       "essential": false,
       "portMappings": [
         {
@@ -37,7 +37,7 @@
       "hostname":"pcauth",
       "essential": false,
       "memoryReservation": 128,
-      "memory": 256,
+      "memory": 156,
       "portMappings": [
         {
           "hostPort": 9100,
@@ -46,7 +46,7 @@
       ],
       "links": [
         "nameserver"
-      ]64
+      ]
     },
     {
      "name": "namenginx",
