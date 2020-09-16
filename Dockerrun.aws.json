@@ -28,7 +28,7 @@
         }
       ],
       "links": [
-        "nameserver","namecore","nameauth"
+        "nameserver","nameauth"
       ]
     },
     {
