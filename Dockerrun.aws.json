@@ -14,23 +14,6 @@
           "containerPort": 8761
         }
       ]
-    },
-    {
-      "name": "namecore",
-      "image": "sushilisfine/poccore:4",
-      "essential": false,
-      "hostname":"pccore",
-      "memoryReservation": 128,
-      "memory": 256,
-      "portMappings": [
-        {
-          "hostPort": 8009,
-          "containerPort": 8009
-        }
-      ],
-      "links": [
-        "nameserver"
-      ]
     },{
       "name": "namezuul",
       "image": "sushilisfine/poczuul:4",
@@ -63,15 +46,15 @@
       ],
       "links": [
         "nameserver"
-      ]
+      ]64
     },
     {
      "name": "namenginx",
      "image": "sushilisfine/pocnginx:4",
      "hostname":"pcnginx",
      "essential": false,
-     "memoryReservation": 128,
-     "memory": 256,
+     "memoryReservation": 64,
+     "memory": 128,
      "portMappings": [
        {
          "hostPort": 80,
