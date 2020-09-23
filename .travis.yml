@@ -23,6 +23,6 @@ deploy:
   region: "us-east-1"
   app: "resopt-docker"
   env: "ResoptDocker-env"
-  bucket_name: "elasticbeanstalk-ap-south-1-843615263948"
+  bucket_name: "elasticbeanstalk-us-east-1-843615263948"
   bucker_path: "resopt-docker-poc"
           
